@@ -106,6 +106,10 @@
         padding-right: 25px;
     }
 
+    .section2_top_left, .section2_furniture {
+        height: auto !important;
+    }
+
     .section3-column .column-title {
         font-size: 22px;
     }
@@ -129,6 +133,22 @@
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .section2_top_right  {
+        margin-top: 20px;
+    }
+
+    #right_img2 {
+        margin-left: 18px;
+        margin-top: 16px;
+    }
+    #left_img2 {
+        margin-top: 15px;
+    }
+
+    #left_img1 {
+    margin-left: 19px;
     }
    
 }
