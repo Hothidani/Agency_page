@@ -7,7 +7,6 @@
 
 main {
     background:#1C1C1C ;
-    height: 200px;
 
 }
 .container-header {
@@ -206,7 +205,6 @@ a{
 .container-section2 {
     display: flex;
     width: 100%;
-    background-color: cadetblue;
     justify-content: center;
 }
 
@@ -433,3 +431,113 @@ a{
 .we-work-underline , .interior-underline{
     text-decoration: underline;
 }
+
+/* --------------------------------container-section3----------------------------------------- */
+
+.container-section3 {
+    display: flex;
+    width: 100%;
+    padding-top: 103px;
+    background-color: burlywood;
+    justify-content: center;
+}
+
+.container-section3-contents {
+    width: 1240px;
+    height: 322px;
+    background-color: cadetblue;
+}
+
+.container-section3-contents .row {
+    width: 1240px;
+
+}
+
+.container-section3-contents .row .col-sm-4 {
+    width: 347.28px !important;
+}
+
+.section3-title {
+    max-width: 414.33px;
+    height: 57px;
+    color: #FFFFFF;
+    line-height: 56.74px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'ABeeZee', sans-serif;
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.section3-contents {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.section3-column {
+    width: 347.28px ;
+    height: 215px ;
+}
+
+.section3-column .column-title {
+    height: 42px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;  
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+.section3-column .column-content {
+    height: 99px;
+    margin-top: 14px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;  
+    overflow: hidden;
+    display: -webkit-box;
+}
+
+
+.readMore {
+    margin-right: 6px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 400;
+    line-height: 30px
+}
+
+.column-icon {
+    display: flex;
+    width: 129.1px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.readMore-icon {
+    width: 16px;
+    height: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #FFFFFF;
+}
+
+/* .column-1 {
+    margin-right: auto;
+}
+
+.column-2 {
+    
+}
+
+.column-3 {
+    
+} */
