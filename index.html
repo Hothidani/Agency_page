@@ -37,6 +37,11 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <!-- bootstrap  -->
+
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+     <!-- Link Swiper's CSS -->
+
 </head>
 
 <body>
@@ -48,7 +53,7 @@
                 <div id="container-header-image-bg"></div>
             </div>
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark ">
+                <nav class="navbar navbar-expand-lg navbar-dark  ">
                     <a class="navbar-brand" href="#">FOptimal</a>
                     <button class="navbar-toggler mt-auto mb-auto" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -68,7 +73,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link nav-link-service" href="#service">SERVICES</a>
+                                <a class="nav-link nav-link-service" href="#services">SERVICES</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link nav-link-ourwork" href="#ourwork">OUR WORK</a>
@@ -108,7 +113,7 @@
         </div>
     </div>
     <main>
-        <div class="container-section2">
+        <div class="container-section2" id="about">
                 <div class="container_section2_contents ">
                     <div class="row ml-auto mr-auto   ">
                         <div class=" section2_top_left    ">
@@ -129,9 +134,9 @@
                         <div class=" section2_top_right ">
 
 
-                            <img class="" id="right_img1" src="https://iuhoa.com/wp-content/uploads/2018/12/hoa-huong-duong.jpg" />
+                            <img class="" id="right_img1" src="./assets/Images/11.svg" />
 
-                            <img class="" id="right_img2" src="https://iuhoa.com/wp-content/uploads/2018/12/hoa-huong-duong.jpg" />
+                            <img class="" id="right_img2" src="./assets/Images/11.svg" />
 
                         </div>
                     </div>
@@ -140,8 +145,8 @@
                     <div class="row row2 ml-auto mr-auto   ">
                         <div class=" section2_bottom_left  ">
 
-                            <img class="" id="left_img1" src="https://iuhoa.com/wp-content/uploads/2018/12/hoa-huong-duong.jpg" />
-                            <img class="" id="left_img2" src="https://iuhoa.com/wp-content/uploads/2018/12/hoa-huong-duong.jpg" />
+                            <img class="" id="left_img1" src=" ./assets/Images/12.svg" />
+                            <img class="" id="left_img2" src="./assets/Images/12.svg" />
                         </div>
                         <div class=" section2_botom_right">
                             <div class="section2_ourteam  ">
@@ -161,12 +166,11 @@
                     </div>
                 </div>
         </div>
-        <div class="container-section3">
+        <div class="container-section3" id="journal">
             <div class="container-section3-contents">
                 <div class="section3-title">We made Journal.
                 </div>
                 <div class="section3-contents ml-auto mr-auto  ">
-                    <!-- <div class="col-sm-4 "> -->
                     <div class="section3-column column-1   ">
                         <div class="column-title">Aesthetic Interior.</div>
                         <div class="column-content">
@@ -207,7 +211,207 @@
 
             </div>
         </div>
+        <div class="container-section4" id="ourwork">
+            <div class="container4">
+                <div class="section4-title ml-auto mr-auto">
+                    Our <span class="section4-title-work">Work</span>
+                </div>
+                <div class="section4-contents">
+                    <div class="swiper-container mySwiper  ">
+                        <div class="swiper-wrapper   " > 
+
+                            <div class="swiper-slide">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="">Design Interior</h3>
+                                </div>
+                                <img class="slide-img" src="./assets/Images/section-4-1.svg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="">Design Interior</h3>
+                                </div>
+                                <img class="slide-img" src="./assets/Images/section-4-2.svg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="">Design Interior</h3>
+                                </div>
+                                <img class="slide-img"
+                                    src="http://images.fastcompany.com/upload/TRM10LJ-AN-603-Antenna.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="">Design Interior</h3>
+                                </div>
+                                <img class="slide-img"
+                                    src="https://noithathungphatsg-1685e.kxcdn.com/wp-content/uploads/2018/04/13.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="">Design Interior</h3>
+                                </div>
+                                <img class="slide-img"
+                                    src=" https://lh3.googleusercontent.com/proxy/Grp8BWQLxn2i6pDCMK2ZUvB-hQNopdytrD9gAjg0jRD9SvJ3qNbGDsj4RPgj8uJ1VHbUKVDgC6BiYqaKWe-lPRVVgmaj9liPOXKu">
+                            </div>
+
+                        </div>
+                       
+
+                    </div>
+                </div>
+                <div class="swiper-pagination mr-auto" id="dotsSlides">
+                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" id="0" tabindex="0"
+                        role="button" aria-label="Go to slide 1"></span>
+                    <span class="swiper-pagination-bullet" id="1" tabindex="1" role="button"
+                        aria-label="Go to slide 2"></span>
+                    <span class="swiper-pagination-bullet" id="2" tabindex="2" role="button"
+                        aria-label="Go to slide 3"></span>
+                    <span class="swiper-pagination-bullet" id="3" tabindex="3" role="button"
+                        aria-label="Go to slide 4"></span>
+                    <span class="swiper-pagination-bullet" id="4" tabindex="4" role="button"
+                        aria-label="Go to slide 5"></span>
+
+
+                </div>
+
+                <div class="swiper-pagination-total ml-auto pagingInfo" id="totalSlides">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-section5" id="services">
+            <div class="container5">
+                <div class="section5-title ml-auto mr-auto">
+                    Our <span class="section4-title-services">Services</span>
+                </div>
+                <div class="section5-contents">
+                    <div class="swiper-container Swiper ml-auto mr-auto">
+                        <div class="swiper-wrapper ml-auto mr-auto">
+
+                            <div class="swiper-slide slide-service ">
+
+                                <img class="slide-img-2 " src="https://govi.vn/wp-content/uploads/2020/07/f1.jpg">
+                                <div class="slide-img-2-title mr-auto ">
+                                    <hr style="border: 1px solid #FFFF; width: 50px;" />Design Interior
+                                </div>
+                                <div class="slide-img-2-content text-left">
+                                    Library Room Design
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <img class="slide-img-2" src=".//assets/Images/section5-2.svg">
+                                <div class="slide-img-2-title   mr-auto ">
+                                    <hr style="border: 1px solid #FFFF; width: 50px;" />Design Interior
+                                </div>
+                                <div class="slide-img-2-content text-left">
+                                    Rest Room Design
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <img class="slide-img-2" src="./assets/Images/section5-3.svg">
+                                <div class="slide-img-2-title   mr-auto ">
+                                    <hr style="border: 1px solid #FFFF; width: 50px;" />Design Interior
+                                </div>
+                                <div class="slide-img-2-content text-left">
+                                    Buiding Design
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <img class="slide-img-2"
+                                    src="https://i.pinimg.com/474x/ad/56/63/ad56639e80e7e80160cd0a98df862cf6.jpg">
+                                <div class="slide-img-2-title   mr-auto ">
+                                    <hr style="border: 1px solid #FFFF; width: 50px;" />Design Interior
+                                </div>
+                                <div class="slide-img-2-content text-left">
+                                    Rest Room Design
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+
+                                <img class="slide-img-2"
+                                    src="https://noithatxuatkhau.org/wp-content/uploads/2018/07/Bo-safa-salon-go-soi-my-600x600.jpg">
+                                <div class="slide-img-2-title   mr-auto ">
+                                    <hr style="border: 1px solid #FFFF; width: 50px;" />Design Interior
+                                </div>
+                                <div class="slide-img-2-content text-left">
+                                    Buiding Design
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+                <div class="swiper-pagination " id="dotsSlides2">
+                    <span class="swiper-pagination-bullet  swiper-pagination-bullet-active" id="0" tabindex="0"
+                        role="button" aria-label="Go to slide 1"></span>
+                    <span class="swiper-pagination-bullet" id="1" tabindex="1" role="button"
+                        aria-label="Go to slide 2"></span>
+                    <span class="swiper-pagination-bullet" id="2" tabindex="2" role="button"
+                        aria-label="Go to slide 3"></span>
+                    <span class="swiper-pagination-bullet" id="3" tabindex="3" role="button"
+                        aria-label="Go to slide 4"></span>
+                    <span class="swiper-pagination-bullet" id="4" tabindex="4" role="button"
+                        aria-label="Go to slide 5"></span>
+                </div>
+                <div class="swiper-pagination-total " id="totalSlides2">
+                </div>
+            </div>
+         
+        </div>
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer_contents">
+
+                <div class="column1">
+                    <a href="#"> FOptimal</a>
+                    <i class="fa fa-copyright "></i>
+                </div>
+                <div class="column2">
+                    <a class="column2_about" href="#about">About</a>
+                    <a class="column2_jurnal" href="#journal">Jurnal</a>
+                </div>
+                <div class="column3">
+                    <a class="column3_service" href="#services">Services</a>
+                    <a class="column3_ourwork" href="#ourwork">Our Work</a>
+                </div>
+                <div class="column4">
+                    <a class="address-icon"
+                        href="https://www.google.com/maps/place/Bd+Audent+18,+6000+Charleroi,+B%E1%BB%89/@50.4096567,4.4427298,17z/data=!3m1!4b1!4m5!3m4!1s0x47c2260b61128565:0xcf62a0858d72efc2!8m2!3d50.4096533!4d4.4449185?hl=vi-VN">
+                        <img src="./assets/Images/Subtract.svg" />
+                    </a>
+                    <a class="address"
+                        href="https://www.google.com/maps/place/Bd+Audent+18,+6000+Charleroi,+B%E1%BB%89/@50.4096567,4.4427298,17z/data=!3m1!4b1!4m5!3m4!1s0x47c2260b61128565:0xcf62a0858d72efc2!8m2!3d50.4096533!4d4.4449185?hl=vi-VN">
+                        Boulevard Audent 18
+                        6000 Charleroi
+                        Belgique
+                    </a>
+                </div>
+                <div class="column5">
+                    <a class="" href="#">
+                        GET IN TOUCH
+                    </a>
+                </div>
+                </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/index.js"></script>
 </body>
 
 </html>
