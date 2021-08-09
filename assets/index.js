@@ -17,7 +17,7 @@ var show = $('#totalSlides');
 show.text(count + '/' + total);
 $('.swiper-pagination-bullet').mouseenter(function() {
     var index = $(this).index() + 1;
-    $('#totalSlides').html(index + '/' + total);
+    $('#totalSlides').html(index +  '/'+ total);
 });
 
 
