@@ -4,7 +4,6 @@ var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2.3,
     // spaceBetween: 80,
     centeredSlides: true,
-  
     pagination: {
         el: "#dotsSlides",
         clickable: true,
@@ -26,7 +25,6 @@ $('.swiper-pagination-bullet').mouseenter(function() {
 
 var swiper2 = new Swiper(".Swiper", {
     slidesPerView: 2.3,
-    // spaceBetween: 39,
     centeredSlides: true,
     pagination: {
         el: "#dotsSlides2",
@@ -35,10 +33,12 @@ var swiper2 = new Swiper(".Swiper", {
     },
 });
 
+
+
 var count2 = 1;
 var total2 = 5 ;
-var show = $('#totalSlides2');       
-show.text(count2 + '/' + total2);
+var show2 = $('#totalSlides2');       
+show2.text(count2 + '/' + total2);
 
 $('.swiper-pagination-bullet').mouseleave(function() {
     var index2 = $(this).index() + 1;
