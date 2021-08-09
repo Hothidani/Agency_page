@@ -147,8 +147,8 @@ a{
     font-size: 68px;
     line-height: 80.38px;
     text-align: center;
-    /* overflow: hidden; */
-    /* display: -webkit-box; */
+    overflow: hidden; 
+    display: -webkit-box;
 }
 
 .subtext-header {
@@ -847,7 +847,7 @@ element.style {
     width: 140px !important;
     height: 24px !important;
     margin-top: 26px !important;
-    margin-left: 20px !important;
+    /* margin-left: 20px !important; */
     justify-content: space-between;
     align-items: center;
 }
@@ -860,9 +860,7 @@ element.style {
     align-items: center;
 }
 
-.swiper-pagination-bullet {
-    margin-right: 20px;
-}
+ 
 
 .swiper-pagination-bullet-active {
     width: 24px !important;
@@ -875,11 +873,13 @@ element.style {
 #totalSlides {
     width: 48px;
     height: 36px !important;
-    position: absolute;
+    position: relative;
     z-index: 2;
     margin-top: 20px !important;
     text-align: center;
-    right: 50px;
+    bottom:0px;
+    margin-left: auto;
+    /* right: 0px; */
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -912,7 +912,6 @@ element.style {
 #dotsSlides2 {
     width: 140px;
     height: 24px;
-    margin-left: 20px;
     position: relative;
     top: -173px;
     justify-content: space-between !important;
