@@ -141,6 +141,7 @@ a{
 
 .hero-text-title {
     max-width: 885px;
+    width: 100%;
     height: 160px;
     margin-bottom: 40px;
     color: #FFFFFF;
@@ -217,16 +218,11 @@ a{
     justify-content: center;
 }
 
-.container-section2 .container {
-    width: 1240px;
-    height: 949px;
-    
-    background-color: aqua;
-}
-
 .container_section2_contents {
-    max-width: 1240px ;
-    padding-top: 70px;
+    max-width: 1240px;
+    width: 100%;
+    max-height: 949px;
+    height: 100%;    padding-top: 70px;
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -401,20 +397,21 @@ a{
  }
 
  
-#right_img1{
+#right-in-font{
     width: 609.97px  ;
     height: 386px !important;
     object-fit: cover !important;
     position:absolute;
     z-index: 2;
 }
-#right_img2{
+#right-behind{
     width: 609.97px  ;
     height: 386px !important;
     margin-left: 28px;
     margin-top: 26px;
     object-fit: cover !important;
     position:absolute;
+    opacity: 0.1;
     z-index:1;
 }
 
@@ -428,7 +425,7 @@ a{
     z-index: 3;
 }
 
-#left_img1{
+#left-in-font{
     width: 563.44px  ;
     height: 412px  ;
     margin-left: 39px;
@@ -437,13 +434,13 @@ a{
     z-index: 2;
 }
 
-#left_img2{
+#left-behind{
     width: 563.44px  ;
     height: 412px !important;
     margin-top: 35px;
     object-fit: cover !important;
     position:absolute;
-    opacity: 0.3;
+    opacity: 0.1;
     z-index:1
 }
 
@@ -461,8 +458,10 @@ a{
 }
 
 .container-section3-contents {
-    width: 1240px;
-    height: 322px;
+    max-width: 1240px;
+    width: 100%;
+    max-height: 322px;
+    height: auto;
 }
 
 .container-section3-contents .row {
@@ -572,8 +571,10 @@ footer {
 
 .footer_contents {
     display: flex  ;
-    width: 1240px;
-    height: 112px;
+    max-width: 1240px;
+    width: 100%;
+    max-height: 112px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
@@ -735,8 +736,10 @@ footer {
 }
 
 .container-section4 .container4 {
-    width: 1240px ;
-    height: 881px;
+    max-width: 1240px ;
+    width: 100%;
+    max-height: 881px;
+    height: auto;
     padding: 0;
 }
 
@@ -934,8 +937,10 @@ element.style {
 }
 
 .container-section5 .container5 {
-    width: 1240px;
-    height: 636px;
+    max-width: 1240px;
+    width: 100%;
+    max-height: 636px;
+    height: 100%;
 }
 
 .container-section5 .container5 .section5-contents {
