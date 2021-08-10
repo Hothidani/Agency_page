@@ -3,115 +3,44 @@
 
 /* -----------------------------(max-width: 320px)------------------------------------------ */
 @media (max-width: 320px) { 
-     /* .navbar-brand {
-        font-size: 20px !important;
-    }
+   
+   .section2_ambitious, .section2_wework, .section3-title, .section4-title, .section5-title {
+    font-size: 16px !important;
+    height: auto;
+    line-height: 26px;
+}
 
-    .hero-text-title {
-        line-height: 30px !important;
-        padding-left: 25px !important;
-        padding-right: 25px !important;
-    }
+.navbar-nav  {
+    background-color:darkgray;
+}
 
-    .section2_wework, .section2_ambitious, .section2_about_text, .section2_ourteam_text {
-        height: auto !important;
-        font-size: 20px !important;
-        line-height: 25px !important;
+.section5-contents .swiper-container .swiper-slide{
+    width: 100% !important;
+    margin-right: 40px !important;
+}
+.section4-contents .swiper-container .swiper-slide{
+    width: 100% !important;
+    margin-right: 80px !important;
+} 
 
-    }
+.content-details h3 {
+    font-size: 20px !important;
+}
 
-    .section2_furniture , .section2_furniture2{
-        height: auto !important;
-        font-size: 14px !important;
-        line-height: 20px !important;
-    }
-    
-    #right_img2 {
-        margin-left: 18px;
-        margin-top: 16px;
-    }
-    #left-behind {
-        margin-top: 15px;
-    }
+.content-overlay , .slide-img-2 {
+    width: 100% !important;
+}
+ 
+.container-section4 .container4 , .container-section5 .container5{
+    max-width: none;
+    max-width: none;
+    padding: 0 15px;
+    overflow: hidden;
+}
+.swiper-slide-active .slide-img-2 {
+    width: 100% !important;
 
-    #left-in-font {
-    margin-left: 19px;
-    }
-    .section2_top_right  {
-        margin-top: 20px;
-        margin-left: 0px;
-    }
-
-    .row2 {
-        margin-top: 0px !important;
-    }
-
-    .section3-column .column-title {
-        margin-top: 0px !important;
-        font-size: 14px !important;
-        line-height: 20px !important;
-    }
-
-    .column-icon   {
-        margin-top: 0px !important;
-
-    }
-
-    .section2_top_left {
-        height: auto !important;
-    }
-    .section3-contents {
-    margin-top: 0px !important;    
-    }
-
-    .container-section3 {
-        padding-top: 40px !important;
-    }
-
-    .section3-column {
-        height: auto !important;
-    }
-
-    .section3-column .column-content {
-        height: auto !important;
-        margin-top: 0px !important;
-        font-size: 12px !important;
-        line-height: 20px !important;
-    }
-
-    .readMore {
-        font-size: 12px !important;
-
-    }
-
-    .column1 a {
-        font-size: 20px !important;
-    }
-
-    .column2 a, .column3 a, .column4 .address, .column5 a {        
-        font-size: 12px !important;
-    }
-
-    
-    .section4-title , .section5-title{
-        font-size: 20px !important;
-    }
-
-    .slide-img-2-title {
-        font-size: 14px !important;
-    }
-
-    .slide-img-2-content {
-        font-size: 12px !important;
-     }
-
-   .content-details h3 {
-       font-size: 20px !important;
-   }
-
-   .content-overlay {
-       width: 100% !important;
-   } */
+}
 }
 
 
@@ -119,103 +48,74 @@
 /* -----------------------------(max-width: 480px)------------------------------------------ */
  @media (max-width: 480px) { 
 
-  
-/*     
-    .hero-text-title {
-         font-size: 30px !important;
-    } 
-
-     .subtext-header {
-        font-size: 20px;
-        line-height: 32px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .section2_top_left, .section2_furniture {
-        height: auto !important;
-    }
-
-    .section3-column .column-title {
-        font-size: 22px;
-    }
-
-    .section3-column .column-content {
-        font-size: 18px;
-    }
-
-    .container-section3-contents {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .section3-title {
-        font-size: 30px;
-        height: auto;
-    }
-
-    .section3-column {
-        width: 100%;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .section2_top_right  {
-        margin-top: 20px;
-    }
-
-    #right-behind {
-        margin-left: 18px;
-        margin-top: 16px;
-    }
-    #left-behind {
-        margin-top: 15px;
-    }
-
-    #left-in-font {
-    margin-left: 19px;
-    }
    
-    .column2 a, .column3 a, .column4 .address, .column5 a {
-        font-size: 15px ;
-    }
 
-    .section4-title , .section5-title{
-        font-size: 30px;
-    }
+.hero-text {
+    max-width: none !important;
+    
+}
 
-    .slide-img-2-title {
-        font-size: 15px;
-    }
+.hero-text-title {
+    font-size: 28px !important;
+    line-height: 35px !important;
+    max-height: none !important; 
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
 
-    .slide-img-2-content {
-        font-size: 18px;
-    }
+.subtext-header {
+    margin-bottom: 0;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-size: 18px;
+    line-height: 30px;
+ }
+.subtext-header, .section3-column .column-title , .slide-img-2-content, #totalSlides, #totalSlides2 {
+    font-size: 20px;
+}
 
-   .content-details h3 {
-       font-size: 25px;
-   }
+.hero-discove-more , .section2_furniture, .section2_furniture2 , .slide-img-2-title,
+.section3-column .column-content{
+font-size: 16px;
+}
 
-   .section4-contents .swiper-container .swiper-wrapper {
-    margin-left: 20px;
+.hero-discove-more {
+    max-width: 148px !important;
+}
+
+.section2_ambitious, .section2_wework, .section3-title, .section4-title, .section5-title {
+    font-size: 25px;
+}
+
+.section2_about_text , .section2_ourteam_text{
+    font-size: 20px;
 
 }
 
-.section4-contents .swiper-container .swiper-slide{
-    width: 80% !important;
-    margin-right: 80px !important;
+
+.column1 a, .column2 a, .column3 a, .column4 .address , .column5 a{
+font-size: 16px;
+}
+.column2, .column3, .column4, .column5 {
+    margin-top: 30px;
+}
+.navbar-nav  {
+    background-color:darkgray;
 }
 
-.container-section4 .container4, .container-section5 .container5 {
-    width: 100%;
-} */
+.navbar-brand, .column1 a  {
+    font-size: 20px !important;
+}
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* -----------------------------(max-width: 575.98px)------------------------------------------ */
  @media (max-width: 575.98px) { 
      
+    .navbar-nav  {
+        background-color:darkgray;
+    }
 
     .hero-text {
         max-width: none;
@@ -265,6 +165,93 @@
     #left-in-font, #left-behind {
         max-width: none;
     }
+
+    .container-section3-contents {
+        max-width: none;
+        max-height: none;
+        padding: 0 15px;
+    }
+
+    .column-2,  .column-3 {
+        margin-top: 40px;
+    }
+
+    .section3-column {
+        max-width: none;
+        max-height: none;
+    }
+
+    .section3-column .column-content {
+        max-width: none;
+        max-height: none;
+    }
+
+    .column-3 .column-title {
+        max-width: none;
+    }
+
+    .footer_contents {
+        max-width: none;
+        max-height: none;
+        margin: 0 15px;
+    } 
+    .column1, .column2, .column3,  .column5  {
+        width: 100%;
+    }
+
+    .column4 {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .column4 .address-icon {
+        margin-right: 20px;
+    }
+
+    /* .column1, .column2, .column3, .column4, .column5 {
+        margin-right: 50px;
+    } */
+
+    .section5-contents .swiper-container .swiper-slide{
+        width: 100% !important;
+        margin-right: 40px !important;
+    }
+    .section4-contents .swiper-container .swiper-slide{
+        width: 100% !important;
+        margin-right: 80px !important;
+    } 
+    .container-section4 .container4 , .container-section5 .container5{
+        max-width: none;
+        max-width: none;
+        padding: 0 15px;
+        overflow: hidden;
+    }
+
+    .section4-contents .swiper-container .swiper-wrapper {
+        margin-left: -255px !important;
+    }
+
+    .section5-contents .swiper-container .swiper-wrapper {
+        margin-left: -290px !important;
+    }
+
+    .container-section4 .container4 .section4-contents,  .container-section5 .container5 .section5-contents {
+        overflow: hidden;
+    }
+
+    #right-behind {
+    margin-left: 25px;
+    margin-top: 23px;
+    }
+
+    #left-behind {
+    margin-top: 20px;
+    }
+
+    #left-in-font {
+        margin-left: 36px;
+    }
+
  }
 /* -----------------------(min-width: 576px) and (max-width: 767.98px)-------------------------------------- */
  /* Small devices (landscape phones, 576px and up) */

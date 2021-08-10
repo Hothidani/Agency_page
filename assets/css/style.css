@@ -136,14 +136,16 @@ a{
 .hero-text {
     max-width: 855px;
     width: 100%;
-    height: 354px;
+    max-height: 354px;
+    height: auto;
     padding-top: 199px;
 }
 
 .hero-text-title {
     max-width: 885px;
     width: 100%;
-    height: 160px;
+    max-height: 160px;
+    height: auto;
     margin-bottom: 40px;
     color: #FFFFFF;
     font-weight: 400;
@@ -179,7 +181,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 163px !important;
+    max-width: 163px !important;
     height: 30px !important;
     text-decoration: none !important;
     border-bottom:2px solid #FFFFFF;
