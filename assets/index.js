@@ -14,10 +14,10 @@ var swiper = new Swiper(".mySwiper", {
 var count = 1;
 var total = 5 ;
 var show = $('#totalSlides');       
-show.text(count + '/' + total);
+show.text(count + ' '+ '/'+  ' '+ total);
 $('.swiper-pagination-bullet').mouseenter(function() {
     var index = $(this).index() + 1;
-    $('#totalSlides').html(index +  '/'+ total);
+    $('#totalSlides').html(index + ' '+ '/'+  ' '+ total);
 });
 
 
@@ -38,11 +38,11 @@ var swiper2 = new Swiper(".Swiper", {
 var count2 = 1;
 var total2 = 5 ;
 var show2 = $('#totalSlides2');       
-show2.text(count2 + '/' + total2);
+show2.text(count2+ ' '+ '/'+  ' '+ total2);
 
 $('.swiper-pagination-bullet').mouseleave(function() {
     var index2 = $(this).index() + 1;
-    $('#totalSlides2').html(index2 + '/' + total2);
+    $('#totalSlides2').html(index2 + ' '+ '/'+  ' '+  total2);
 });
 
 
