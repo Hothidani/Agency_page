@@ -30,11 +30,11 @@
         margin-left: 18px;
         margin-top: 16px;
     }
-    #left_img2 {
+    #left-behind {
         margin-top: 15px;
     }
 
-    #left_img1 {
+    #left-in-font {
     margin-left: 19px;
     }
     .section2_top_right  {
@@ -165,15 +165,15 @@
         margin-top: 20px;
     }
 
-    #right_img2 {
+    #right-behind {
         margin-left: 18px;
         margin-top: 16px;
     }
-    #left_img2 {
+    #left-behind {
         margin-top: 15px;
     }
 
-    #left_img1 {
+    #left-in-font {
     margin-left: 19px;
     }
    
@@ -236,7 +236,7 @@
         width: 100%;
     }
 
-    .section2_top_right  #right_img1 ,.section2_top_right #right_img2{
+    .section2_top_right  #right-in-font ,.section2_top_right #right-behind{
         width: 80%;
     }
 
@@ -246,7 +246,7 @@
         top: 350px;
     }
 
-    .section2_bottom_left   #left_img1, .section2_bottom_left #left_img2 {
+    .section2_bottom_left   #left-in-font, .section2_bottom_left #left-behind {
         width: 90%;
     }
 
@@ -346,11 +346,11 @@
         width: 100%;
     }
 
-    .section2_bottom_left   #left_img1, .section2_bottom_left #left_img2 {
+    .section2_bottom_left   #left-in-font, .section2_bottom_left #left-behind {
         width: 90%;
     }
 
-    .section2_top_right  #right_img1 ,.section2_top_right #right_img2{
+    .section2_top_right  #right-in-font ,.section2_top_right #right-behind{
         width: 80%;
     }
 
@@ -417,53 +417,38 @@
 /* ------------------------------(min-width: 768px) and (max-width: 991.98px)-------------------------------------- */
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .hero-text-title  {
-        height: auto !important;
+    .hero-text-title {
+        max-width: none;
+        padding: 0 15px;
         font-size: 60px;
         line-height: 70px;
-        padding-left: 25px;
-        padding-right: 25px;
     }
 
-    .container_section2_contents  {
-        padding-left: 15px;
-        padding-right: 15px;
-    } 
+    .container_section2_contents {
+        max-width: none;
+        max-height: none;
+        padding: 0 15px;
+    }
 
     .container_section2_contents .row {
         justify-content: center;
     }
-
-    .section2_bottom_left {
-        position: relative;
-        top: 350px;
-    }
-
-    .section2_botom_right {
-        position: relative;
-        bottom: 500px;
-    }
-
+    
     .container-section3-contents {
-        height: auto;
-        padding-left: 20px;
-        padding-right: 20px;
+        max-width: none;
+        max-height: none;
+        padding: 0 15px;
     }
 
-    .section3-column {
+    .column-3 {
         margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .footer-container {
-        padding-left: 20px;
-        padding-right: 20px;
     }
 
     .footer_contents {
-        height: auto;
-    }
+        max-width: none;
+        max-height: none;
+        margin: 0 15px;
+    } 
 
     .column1, .column2, .column3, .column4, .column5 {
         margin-right: 50px;
@@ -473,25 +458,6 @@
         background-color:darkgray;
     }
 
-    .container-section4, .container-section5 {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .container-section4 .container4, .container-section5 .container5 {
-        width: 100%;
-    }
-
-    .section4-contents .swiper-container .swiper-wrapper {
-        margin-left: -250px ;
-    
-    }
-
-    .section5-contents .swiper-container .swiper-wrapper {
-        margin-left: -250px !important;
-    
-    }
-
     .section5-contents .swiper-container .swiper-slide{
         width: 100% !important;
         margin-right: 40px !important;
@@ -499,8 +465,21 @@
     .section4-contents .swiper-container .swiper-slide{
         width: 100% !important;
         margin-right: 80px !important;
+    } 
+    .container-section4 .container4 , .container-section5 .container5{
+        max-width: none;
+        max-width: none;
+        padding: 0 15px;
+        overflow: hidden;
     }
 
+    .section4-contents .swiper-container .swiper-wrapper {
+        margin-left: -250px !important;
+    }
+
+    .container-section4 .container4 .section4-contents,  .container-section5 .container5 .section5-contents {
+        overflow: hidden;
+    }
  }
 
 

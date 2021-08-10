@@ -45,6 +45,12 @@ $('.swiper-pagination-bullet').mouseleave(function() {
     $('#totalSlides2').html(index2 + '/' + total2);
 });
 
+
+
+
+
+
+
 var nav = document.querySelector(".container");
 var view = document.getElementById('view');
 const myNavHeight = nav.getBoundingClientRect().height;
