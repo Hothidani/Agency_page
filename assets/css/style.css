@@ -44,7 +44,7 @@ main {
 #container-header-image-bg {
     width: 100%;
     height: 752px;
-    background: linear-gradient(rgba(49, 83, 83, 0.3) ,
+    background: linear-gradient( rgba(49, 49, 49, 0.3),
     rgba(49, 49, 49, 0.3),
     rgba(49, 49, 49, 0.3), #1C1C1C);
     z-index: -1;
