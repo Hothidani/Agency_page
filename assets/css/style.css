@@ -828,6 +828,13 @@ element.style {
     align-items: center;
 }
 
+.section4-contents .swiper-container .swiper-slide a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .slide-img {
     width: 480px   ;
     height: 682px  ;
@@ -844,6 +851,23 @@ element.style {
 .swiper-container {
     overflow: visible !important;
 }
+
+.content-overlay-display-text {
+    display: none;
+    position: absolute;
+    max-width: 100%;
+    width: 356px;
+    /* right: 12%; */
+    top:45%;
+    padding: 0;
+    margin: 0px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 72px;
+    font-size: 48px;
+  }
+
 .swiper-slide .content-overlay {
     background: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -857,14 +881,28 @@ element.style {
     
 }
 
+.swiper-slide .content-overlay-display-bg {
+    display: none;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 682px;
+    width: 480px;
+}
+
 .swiper-slide:hover .content-overlay {
     opacity: 1
+}
+
+.swiper-slide:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    z-index:3;
 }
 
 .content-details {
     position: absolute;
     text-align: center;
-    
     max-width: 100%;
     left: 50%;
     opacity: 0;
@@ -874,12 +912,6 @@ element.style {
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s
-}
-
-.swiper-slide:hover .content-details {
-    top: 41.4%;
-    left: 50%;
-    opacity: 1
 }
 
 .content-details h3 {

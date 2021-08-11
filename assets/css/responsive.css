@@ -26,7 +26,10 @@
     #left-in-font {
         margin-left: 28px !important;
     }
- 
+
+    .swiper-slide:hover .content-details {
+        display: none;
+    }
 }
 
 
@@ -118,6 +121,14 @@ font-size: 16px;
     width: 100% !important;
 }
 
+.content-overlay-display-text, .swiper-slide .content-overlay-display-bg {
+    width: 100% !important;
+}
+
+.content-overlay-display-text {
+    font-size: 40px !important;
+}
+
 .section4-contents .swiper-container .swiper-slide .slide-img {
     width: 100% !important;
 
@@ -132,6 +143,13 @@ font-size: 16px;
     width: 100%;
 }
 
+.swiper-slide:hover .content-details {
+    display: none;
+}
+
+.swiper-slide:hover .content-overlay {
+    display: none;
+ }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -273,6 +291,16 @@ font-size: 16px;
         margin-left: 36px;
     }
 
+    .content-overlay-display-text, .swiper-slide .content-overlay-display-bg  {
+        display: block;
+    }
+    .swiper-slide:hover .content-details {
+        display: none;
+    }
+
+    .swiper-slide:hover .content-overlay {
+        display: none;
+     }
  }
 /* -----------------------(min-width: 576px) and (max-width: 767.98px)-------------------------------------- */
  /* Small devices (landscape phones, 576px and up) */
@@ -375,6 +403,17 @@ font-size: 16px;
         overflow: hidden;
     }
 
+    .content-overlay-display-text, .swiper-slide .content-overlay-display-bg  {
+        display: block;
+    }
+
+    .swiper-slide:hover  .content-details {
+        display: none;
+    }
+
+    .swiper-slide:hover .content-overlay {
+        display: none;
+     }
     
 }
 
@@ -460,6 +499,17 @@ font-size: 16px;
         bottom:500px;
     }
 
+    .content-overlay-display-text, .swiper-slide .content-overlay-display-bg  {
+        display: block;
+    }
+
+    .swiper-slide:hover  .content-details {
+        display: none;
+    }
+
+    .swiper-slide:hover .content-overlay {
+        display: none;
+     }
  }
 
 
@@ -513,6 +563,14 @@ font-size: 16px;
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .swiper-slide:hover .content-overlay {
+       display: none;
+    }
+
+    .swiper-slide:hover  .content-details {
+        display: none;
     }
  }
 
