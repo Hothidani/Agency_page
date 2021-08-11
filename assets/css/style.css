@@ -974,6 +974,10 @@ element.style {
     overflow: visible;
 }
 
+.swiper-slide a {
+    text-decoration: none !important;
+}
+
 #dotsSlides2 {
     width: 140px;
     height: 24px;
