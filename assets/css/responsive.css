@@ -14,7 +14,20 @@
     background-color:darkgray;
 }
 
-.section5-contents .swiper-container .swiper-slide{
+#right-behind {
+    margin-left: 18px !important;
+    margin-top: 16px !important;
+    }
+
+    #left-behind {
+    margin-top: 24px !important;
+    }
+
+    #left-in-font {
+        margin-left: 28px !important;
+    }
+
+/* .section5-contents .swiper-container .swiper-slide{
     width: 100% !important;
     margin-right: 40px !important;
 }
@@ -40,7 +53,7 @@
 .swiper-slide-active .slide-img-2 {
     width: 100% !important;
 
-}
+} */
 }
 
 
@@ -91,7 +104,17 @@ font-size: 16px;
     font-size: 20px;
 
 }
+.content-details h3 {
+    font-size: 30px !important;
+}
 
+.section4-contents .swiper-container .swiper-wrapper {
+    margin-left: -85px !important;
+}
+
+.container-section4 .container4 .section4-contents {
+    max-width: none;
+}
 
 .column1 a, .column2 a, .column3 a, .column4 .address , .column5 a{
 font-size: 16px;
@@ -105,6 +128,38 @@ font-size: 16px;
 
 .navbar-brand, .column1 a  {
     font-size: 20px !important;
+}
+
+
+.section5-contents .swiper-container .swiper-slide{
+    width: 100% !important;
+    margin-right: 40px !important;
+}
+.section4-contents .swiper-container .swiper-slide{
+    width: 100% !important;
+    margin-right: 80px !important;
+} 
+
+
+.swiper-slide .content-overlay{
+    width: 100% !important;
+}
+
+.section4-contents .swiper-container .swiper-slide .slide-img {
+    width: 100% !important;
+
+}
+
+.section5-contents .swiper-container .swiper-slide .slide-img-2 {
+    width: 100% !important;
+
+}
+
+ 
+
+.swiper-slide .swiper-slide-active {
+    width: 100%;
+
 }
 
 }
@@ -228,11 +283,11 @@ font-size: 16px;
     }
 
     .section4-contents .swiper-container .swiper-wrapper {
-        margin-left: -255px !important;
+        margin-left: -100px !important;
     }
 
     .section5-contents .swiper-container .swiper-wrapper {
-        margin-left: -290px !important;
+        margin-left: -100px !important;
     }
 
     .container-section4 .container4 .section4-contents,  .container-section5 .container5 .section5-contents {
@@ -413,16 +468,16 @@ font-size: 16px;
     .container-section4 .container4 , .container-section5 .container5{
         max-width: none;
         max-width: none;
-        padding: 0 15px;
+        padding: 0 20px;
         overflow: hidden;
     }
 
     .section4-contents .swiper-container .swiper-wrapper {
-        margin-left: -255px !important;
+        margin-left: -195px !important;
     }
 
     .section5-contents .swiper-container .swiper-wrapper {
-        margin-left: -260px !important;
+        margin-left: -205px !important;
     }
 
     .container-section4 .container4 .section4-contents,  .container-section5 .container5 .section5-contents {
