@@ -55,13 +55,40 @@
                 <nav class="navbar navbar-expand-lg navbar-dark  ">
                     <a class="navbar-brand" href="#">FOptimal</a>
                     <button class="navbar-toggler mt-auto mb-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon" onclick="openNav()"></span>
                     </button>
+                    <!-- data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" -->
+                    <div id="myMenu" class="myMenu">
+                        <a href="javascript:void(0)" class="closebtn ml-auto" onclick="closeNav()">&times;</a>
+                        <ul class="navbar-nav">
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-about" href="#about" onclick="closeNav()">ABOUT</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-journal" href="#journal" onclick="closeNav()">JOURNAL</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-service" href="#services" onclick="closeNav()">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-link-ourwork" href="#ourwork" onclick="closeNav()">OUR WORK</a>
+                            </li>
+
+                            <li class="nav-item  ">
+                                <a class="nav-link nav-link-contact" href="#" onclick="closeNav()">
+                                    CONTACT US
+                                </a>
+                            </li>
+                            <hr class="menu-hr" />
+                        </ul>
+
+                    </div>
+                    <div class="collapse navbar-collapse " id="myMenu ">
+                        <ul class="navbar-nav ml-auto ">
 
                             <li class="nav-item">
                                 <a class="nav-link nav-link-about" href="#about">ABOUT</a>
@@ -217,94 +244,95 @@
                 <div class="section4-title ml-auto mr-auto">
                     Our <span class="section4-title-work">Work</span>
                 </div>
-                <div class="section4-contents">
-                    <div class="swiper-container mySwiper  ">
-                        <div class="swiper-wrapper   ">
+                <div class="swiper-container mySwiper" id="container__section4">
+                    <div class="swiper-wrapper" id="swiper-wrapper4">
+                        <div class="swiper-slide" id="swiper1__slide1__section4">
+                            <a href="detail">
+                                <div class="swiper-slide-overlay"></div>
+                                <div class="swiper-slide-details fadeIn-bottom">
+                                    <h3 class="swiper-slide-title">Design Interior</h3>
+                                </div>
+                                <div class="swiper__slide__image">
+                                    <img
+                                        src="https://huubangfurnitute.com/wp-content/uploads/2020/06/26DF0E5F-9D5E-4F1A-ABDC-E1249564C5E7.jpeg">
+                                </div>
 
-                            <div class="swiper-slide">
-                                <a href="detail">
-                                    <div class="content-overlay"></div>
-                                    <div class="content-overlay-display-bg"></div>
-                                    <div class="content-overlay-display-text ml-auto mr-auto">Design Interior</div>
-                                    <div class="content-details fadeIn-bottom">
-                                        <h3 class="">Design Interior</h3>
-                                    </div>
-                                    <img class="slide-img" src="./assets/Images/section-4-1.svg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="detail">
-                                    <div class="content-overlay"></div>
-                                    <div class="content-overlay-display-bg"></div>
-                                    <div class="content-overlay-display-text">Design Interior</div>
-                                    <div class="content-details fadeIn-bottom">
-                                        <h3 class="">Design Interior</h3>
-                                    </div>
-                                    <img class="slide-img" src="./assets/Images/section-4-2.svg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="detail">
-                                    <div class="content-overlay"></div>
-                                    <div class="content-overlay-display-bg"></div>
-                                    <div class="content-overlay-display-text ">Design Interior</div>
-                                    <div class="content-details fadeIn-bottom">
-                                        <h3 class="">Design Interior</h3>
-                                    </div>
-                                    <img class="slide-img"
-                                        src="http://images.fastcompany.com/upload/TRM10LJ-AN-603-Antenna.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="detail">
-                                    <div class="content-overlay"></div>
-                                    <div class="content-overlay-display-bg"></div>
-                                    <div class="content-overlay-display-text">Design Interior</div>
-                                    <div class="content-details fadeIn-bottom">
-                                        <h3 class="">Design Interior</h3>
-                                    </div>
-                                    <img class="slide-img"
-                                        src="https://noithathungphatsg-1685e.kxcdn.com/wp-content/uploads/2018/04/13.jpg">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="detail">
-
-                                    <div class="content-overlay"></div>
-                                    <div class="content-overlay-display-bg"></div>
-                                    <div class="content-overlay-display-text">Design Interior</div>
-                                    <div class="content-details fadeIn-bottom">
-                                        <h3 class="">Design Interior</h3>
-                                    </div>
-                                    <img class="slide-img"
-                                        src=" https://noithatkhoinguyen.com/upload/filemanager/product/ban-hoc-thong-minh-bha26t.jpg">
-                                </a>
-
-                            </div>
+                            </a>
 
                         </div>
 
+                        <div class="swiper-slide" id="swiper1__slide1__section4">
+                            <a href="detail">
+                                <div class="swiper-slide-overlay"></div>
+                                <div class="swiper-slide-details fadeIn-bottom">
+                                    <h3 class="swiper-slide-title">Design Interior</h3>
+                                </div>
+                                <div class="swiper__slide__image">
+                                    <img
+                                        src="https://noithatkhoinguyen.com/upload/filemanager/product/ban-hoc-thong-minh-bha26t.jpg">
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide" id="swiper1__slide1__section4">
+                            <a href="detail">
+                                <div class="swiper-slide-overlay"></div>
+                                <div class="swiper-slide-details fadeIn-bottom">
+                                    <h3 class="swiper-slide-title">Design Interior</h3>
+                                </div>
+                                <div class="swiper__slide__image">
+                                    <img
+                                        src="https://noithatbaonam.vn/upload/images/tron-bo-phong-ngu-hien-dai-tphcm-01.jpg">
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide" id="swiper1__slide1__section4">
+                            <a href="detail">
+                                <div class="swiper-slide-overlay"></div>
+                                <div class="swiper-slide-details fadeIn-bottom">
+                                    <h3 class="swiper-slide-title">Design Interior</h3>
+                                </div>
+                                <div class="swiper__slide__image">
+                                    <img
+                                        src="https://wedo.vn/wp-content/uploads/2018/08/y-tuong-thiet-ke-phong-bep-hien-dai.gif">
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="swiper-slide" id="swiper1__slide1__section4">
+                            <a href="detail">
+                                <div class="swiper-slide-overlay"></div>
+                                <div class="swiper-slide-details fadeIn-bottom">
+                                    <h3 class="swiper-slide-title">Design Interior</h3>
+                                </div>
+                                <div class="swiper__slide__image">
+                                    <img
+                                        src="https://wedo.vn/wp-content/uploads/2019/05/nguyen-tac-khi-thiet-ke-noi-that-phong-khach-nha-ong-dep-ma-sang-trong-600x450.jpg">
+                                </div>
+                            </a>
+                        </div>
 
                     </div>
+                    <div class="slide-dots">
+                        <div class="swiper-pagination" id="pagination1">
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active pagination__click"
+                                id="hidden__id" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                            <span class="swiper-pagination-bullet pagination__click" id="1" tabindex="1" role="button"
+                                aria-label="Go to slide 2"></span>
+                            <span class="swiper-pagination-bullet pagination__click" id="2" tabindex="2" role="button"
+                                aria-label="Go to slide 3"></span>
+                            <span class="swiper-pagination-bullet  pagination__click" id="3" tabindex="3" role="button"
+                                aria-label="Go to slide 4"></span>
+                            <span class="swiper-pagination-bullet pagination__click" id="4" tabindex="4" role="button"
+                                aria-label="Go to slide 5"></span>
+                        </div>
+                        <p class="count__number1"></p>
+                    </div>
+                   
                 </div>
-                <div class="swiper-pagination mr-auto" id="dotsSlides">
-                    <span class="swiper-pagination-bullet swiper-pagination-bullet-active" id="0" tabindex="0"
-                        role="button" aria-label="Go to slide 1"></span>
-                    <span class="swiper-pagination-bullet" id="1" tabindex="1" role="button"
-                        aria-label="Go to slide 2"></span>
-                    <span class="swiper-pagination-bullet" id="2" tabindex="2" role="button"
-                        aria-label="Go to slide 3"></span>
-                    <span class="swiper-pagination-bullet" id="3" tabindex="3" role="button"
-                        aria-label="Go to slide 4"></span>
-                    <span class="swiper-pagination-bullet" id="4" tabindex="4" role="button"
-                        aria-label="Go to slide 5"></span>
-
-
-                </div>
-
-                <div class="swiper-pagination-total  pagingInfo" id="totalSlides">
-
-                </div>
+                
             </div>
         </div>
 
@@ -314,7 +342,85 @@
                     Our <span class="section4-title-services">Services</span>
                 </div>
                 <div class="section5-contents">
-                    <div class="swiper-container Swiper ml-auto mr-auto">
+                    <div class="swiper-container swiper" id="container__section5">
+                        <div class="swiper-wrapper" id="swiper-wrapper5">
+                            <div class="swiper-slide" id="swiper1__slide1__section5">
+                                <a class="swiper-slide__image1" href="detail">
+                                    <img src="https://govi.vn/wp-content/uploads/2020/07/f1.jpg" class="img2">
+                                </a>
+                                <a class="swiper-slide__icon__design1" href="detail">
+                                    <div class="swiper-slide__icon1"></div>
+                                    <div class="swiper-slide__design1">Design Interior</div>
+            
+                                </a>
+                                <a class="swiper-slide__library1" href="detail">Library Room Design</a>
+            
+                            </div>
+            
+                            <div class="swiper-slide" id="swiper1__slide1__section5">
+                                <a class="swiper-slide__image1"  href="detail">
+                                    <img src="./assets/Images/section5-2.svg" class="img2">
+                                </a>
+                                <a class="swiper-slide__icon__design1"  href="detail">
+                                    <div class="swiper-slide__icon1"></div>
+                                    <div class="swiper-slide__design1">Design Interior</div>
+            
+                                </a>
+                                <a class="swiper-slide__library1"  href="detail">Rest Room Design</a>
+            
+                            </div>
+            
+                            <div class="swiper-slide" id="swiper1__slide1__section5">
+                                <a class="swiper-slide__image1"  href="detail">
+                                    <img src="https://huubangfurnitute.com/wp-content/uploads/2020/06/26DF0E5F-9D5E-4F1A-ABDC-E1249564C5E7.jpeg" class="img2">
+                                </a>
+                                <a class="swiper-slide__icon__design2"  href="detail">
+                                    <div class="swiper-slide__icon2"></div>
+                                    <div class="swiper-slide__design2">Design Architecture</div>
+            
+                                </a>
+                                <a class="swiper-slide__library2"  href="detail">Building Design</a>
+            
+                            </div>
+                            <div class="swiper-slide" id="swiper1__slide1__section5">
+                                <a class="swiper-slide__image1"  href="detail">
+                                    <img src="./assets/Images/section5-3.svg" class="img2">
+                                </a>
+                                <a class="swiper-slide__icon__design1"  href="detail">
+                                    <div class="swiper-slide__icon1"></div>
+                                    <div class="swiper-slide__design1">Design Interior</div>
+            
+                                </a>
+                                <a class="swiper-slide__library1"  href="detail">Library Room Design</a >
+            
+                            </div>
+            
+                            <div class="swiper-slide" id="swiper1__slide1__section5">
+                                <a class="swiper-slide__image1"  href="detail">
+                                    <img src="https://noithatxuatkhau.org/wp-content/uploads/2018/07/Bo-safa-salon-go-soi-my-600x600.jpg" class="img2">
+                                </a>
+                                <a class="swiper-slide__icon__design1"  href="detail">
+                                    <div class="swiper-slide__icon1"></div>
+                                    <div class="swiper-slide__design1">Design Interior</div>
+            
+                                </a>
+                                <a class="swiper-slide__library1"  href="detail">Rest Room Design</a>
+            
+                            </div>
+            
+                        </div>
+                        <div class="slide-dots">
+                            <div class="swiper-pagination" id="pagination2">
+                                <span class="swiper-pagination-bullet swiper-pagination-bullet-active" id="0" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                                <span class="swiper-pagination-bullet" id="1" tabindex="1" role="button" aria-label="Go to slide 2"></span>
+                                <span class="swiper-pagination-bullet" id="2" tabindex="2" role="button" aria-label="Go to slide 3"></span>
+                                <span class="swiper-pagination-bullet" id="3" tabindex="3" role="button" aria-label="Go to slide 4"></span>
+                                <span class="swiper-pagination-bullet" id="4" tabindex="4" role="button" aria-label="Go to slide 5"></span>
+                            </div>
+                            <p class="count__number2"></p>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-container Swiper ml-auto mr-auto">
                         <div class="swiper-wrapper ml-auto mr-auto">
 
                             <div class="swiper-slide slide-service ">
@@ -381,10 +487,10 @@
                         </div>
 
 
-                    </div>
+                    </div> -->
                 </div>
 
-                <div class="swiper-pagination " id="dotsSlides2">
+                <!-- <div class="swiper-pagination " id="dotsSlides2">
                     <span class="swiper-pagination-bullet  swiper-pagination-bullet-active" id="0" tabindex="0"
                         role="button" aria-label="Go to slide 1"></span>
                     <span class="swiper-pagination-bullet" id="1" tabindex="1" role="button"
@@ -397,7 +503,7 @@
                         aria-label="Go to slide 5"></span>
                 </div>
                 <div class="swiper-pagination-total " id="totalSlides2">
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -438,6 +544,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
