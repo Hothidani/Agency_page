@@ -15,7 +15,7 @@ var count = 1;
 var total = 5;
 var show = $('.count__number1');
 show.text(count + '/' + total);
-$('.swiper-pagination-bullet').mouseenter(function() {
+$('.swiper-pagination-bullet').click(function() {
     var index = $(this).index() + 1;
     $('.count__number1').html(index +'/' + total);
 });
@@ -23,7 +23,7 @@ $('.swiper-pagination-bullet').mouseenter(function() {
 
 //section 5
 var swiper = new Swiper(".swiper", {
-    slidesPerView: 3,
+    slidesPerView:2.724,
     spaceBetween: 39,
     centeredSlides: true,
     pagination: {
@@ -36,7 +36,7 @@ var count = 1;
 var total = 5;
 var show = $('.count__number2');
 show.text(count + '/' + total);
-$('.swiper-pagination-bullet').mouseenter(function() {
+$('.swiper-pagination-bullet').click(function() {
     var index = $(this).index() + 1;
     $('.count__number2').html(index + '/' + total);
 });
