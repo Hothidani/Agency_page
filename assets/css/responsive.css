@@ -28,7 +28,6 @@
 }
 
 
-
 /* -----------------------------(max-width: 480px)------------------------------------------ */
  @media (max-width: 480px) { 
 
@@ -71,7 +70,6 @@ width: 100%;
     max-width: none;
     padding: 0 15px;
 } */
-
 .swiper-slide-details h3 {
     font-size: 30px !important;
 }
