@@ -203,11 +203,6 @@ font-size: 16px;
 /* Extra small devices (portrait phones, less than 576px) */
 /* -----------------------------(max-width: 575.98px)------------------------------------------ */
  @media (max-width: 575.98px) { 
-     
-    /* .navbar-nav  {
-        background-color:darkgray;
-    } */
-
     .container5 {
         max-width: none;
         max-height: none;
