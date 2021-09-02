@@ -3,16 +3,11 @@
 
 /* -----------------------------(max-width: 320px)------------------------------------------ */
 @media (max-width: 320px) { 
-   
    .section2_ambitious, .section2_wework, .section3-title, .section4-title, .section5-title {
     font-size: 16px !important;
     height: auto;
     line-height: 26px;
 }
-
-/* .navbar-nav  {
-    background-color:darkgray;
-} */
 
 #right-behind {
     margin-left: 18px !important;
